@@ -1,10 +1,10 @@
 <resources>
-    <string name="app_name">Reactions</string>
-    <string name="app_author">Manuel, manuel@mobiquos.cl</string>
-    <string name="app_descripotion">Este proyecto es un piloto para evaluar la factibilidad de poder
-        desarrollar dentro de Android una aplicacion que implemente un juego de reacciones.
-        El celular da la instruccion y el usuario debe responder en un tiempo limitado para
-        segueing avanzando.</string>
+    <string name="app_name">bop-it</string>
+    <string name="app_author">Ignacio Matus, ignismatus94@gmail.com</string>
+    <string name="app_descripotion">Bienvenido, este es el lab 1 en el cual se genera la estructura de un videojuego de bop-it que sera visto en las proximos labs </string>
+
+    <string name="app_mensaje">Bienvenido al Lab 1</string>
+
 
     <string name="title_activity_settings">SettingsActivity</string>
 

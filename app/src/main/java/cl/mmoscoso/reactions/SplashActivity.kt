@@ -26,7 +26,7 @@ class SplashActivity : AppCompatActivity() {
         //val sharedPreferences = getSharedPreferences("MyPreferences", Context.MODE_PRIVATE)
         val sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this)
         // Read a preference
-        val value = sharedPreferences.getString("splash_time", "1000")
+        val value = sharedPreferences.getString("splash_time", "10000")
 
         Log.i(tagLog,"Value of splash_time:" + value)
 
@@ -62,8 +62,8 @@ class SplashActivity : AppCompatActivity() {
         })
         imageView.startAnimation(fadeIn)
         val seconds = value?.toLong()
-        val delayMillis = seconds!!.toLong() // 2 seconds (adjust as needed)
-
+        //val delayMillis = seconds!!.toLong() // 2 seconds (adjust as needed)
+        val delayMillis = 10000L;
         val handler = Handler(Looper.getMainLooper())
         handler.postDelayed({
             val intent = Intent(this, MainActivity::class.java)
